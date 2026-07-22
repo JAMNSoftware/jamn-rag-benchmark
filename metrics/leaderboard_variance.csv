@@ -1,0 +1,14 @@
+judge,candidate,mean,sd,n_runs,per_run,comparison,gap,inside_noise_floor
+qwen/qwen3.5-397b-a17b,openai/gpt-5.4,1.8572,0.0279,3,"1.889, 1.840, 1.842",,,
+qwen/qwen3.5-397b-a17b,anthropic/claude-opus-4.5,1.8245,0.0134,3,"1.811, 1.824, 1.838",,,
+qwen/qwen3.5-397b-a17b,meta-llama/llama-3.3-70b-instruct,1.8188,0.0257,3,"1.793, 1.844, 1.820",,,
+qwen/qwen3.5-397b-a17b,deepseek/deepseek-v4-pro,1.6553,0.1434,3,"1.814, 1.534, 1.618",,,
+qwen/qwen3.5-397b-a17b,cohere/command-r7b-12-2024,1.582,0.0317,3,"1.546, 1.605, 1.595",,,
+qwen/qwen3.5-397b-a17b,meta-llama/llama-3.2-3b-instruct,1.5254,0.0727,3,"1.598, 1.525, 1.453",,,
+qwen/qwen3.5-397b-a17b,meta-llama/llama-3.2-1b-instruct,0.8284,0.0577,3,"0.764, 0.847, 0.874",,,
+qwen/qwen3.5-397b-a17b,,,,,,openai/gpt-5.4 > anthropic/claude-opus-4.5,0.0327,True
+qwen/qwen3.5-397b-a17b,,,,,,anthropic/claude-opus-4.5 > meta-llama/llama-3.3-70b-instruct,0.0057,True
+qwen/qwen3.5-397b-a17b,,,,,,meta-llama/llama-3.3-70b-instruct > deepseek/deepseek-v4-pro,0.1635,False
+qwen/qwen3.5-397b-a17b,,,,,,deepseek/deepseek-v4-pro > cohere/command-r7b-12-2024,0.0733,True
+qwen/qwen3.5-397b-a17b,,,,,,cohere/command-r7b-12-2024 > meta-llama/llama-3.2-3b-instruct,0.0565,True
+qwen/qwen3.5-397b-a17b,,,,,,meta-llama/llama-3.2-3b-instruct > meta-llama/llama-3.2-1b-instruct,0.6971,False

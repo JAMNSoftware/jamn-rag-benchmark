@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these artifacts, please cite the paper below."
+title: "JAMN Bot RAG Benchmark"
+authors:
+  - family-names: Farinas
+    given-names: Mark
+  - family-names: Garcia
+    given-names: Alesandra
+  - family-names: Reyes
+    given-names: Maria
+  - family-names: Nueva
+    given-names: Jethro
+  - family-names: Qureshi
+    given-names: Nawaf
+  - family-names: Elsaadany
+    given-names: Mahmoud
+  - family-names: Shamseldin
+    given-names: Shokry
+preferred-citation:
+  type: conference-paper
+  title: "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant"
+  conference:
+    name: "IEEE SmartEdu 2026"
+  year: 2026
+  # doi: TODO add DOI once assigned
+repository-code: "TODO add repository URL on publication"
+license: MIT

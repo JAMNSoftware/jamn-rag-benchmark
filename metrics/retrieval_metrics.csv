@@ -1,0 +1,31 @@
+scope,section,metric,value,random_baseline,n
+overall,,Hit@1,0.6667,0.1667,36
+overall,,Hit@3,0.8889,0.4382,36
+overall,,Hit@6,0.8889,0.7321,36
+overall,,MRR,0.7731,0.3428,36
+overall,,recall@6,0.875,0.6,36
+section,1 — Exam Deferral Policy,Hit@1,0.7778,0.1222,9
+section,1 — Exam Deferral Policy,Hit@3,1.0,0.3519,9
+section,1 — Exam Deferral Policy,Hit@6,1.0,0.6593,9
+section,1 — Exam Deferral Policy,MRR,0.8889,0.2819,9
+section,1 — Exam Deferral Policy,recall@6,1.0,0.6,9
+section,2 — Privacy Policy,Hit@1,0.75,0.125,4
+section,2 — Privacy Policy,Hit@3,0.75,0.3583,4
+section,2 — Privacy Policy,Hit@6,0.75,0.6667,4
+section,2 — Privacy Policy,MRR,0.75,0.2865,4
+section,2 — Privacy Policy,recall@6,0.625,0.6,4
+section,3 — Scheduling Policy,Hit@1,0.4,0.26,5
+section,3 — Scheduling Policy,Hit@3,1.0,0.6167,5
+section,3 — Scheduling Policy,Hit@6,1.0,0.879,5
+section,3 — Scheduling Policy,MRR,0.7,0.4688,5
+section,3 — Scheduling Policy,recall@6,1.0,0.6,5
+section,4 — Cross-Policy Reasoning,Hit@1,0.7143,0.1786,14
+section,4 — Cross-Policy Reasoning,Hit@3,0.9286,0.4631,14
+section,4 — Cross-Policy Reasoning,Hit@6,0.9286,0.7568,14
+section,4 — Cross-Policy Reasoning,MRR,0.8095,0.3605,14
+section,4 — Cross-Policy Reasoning,recall@6,0.9286,0.6,14
+section,5 — Adversarial & Out-of-Scope,Hit@1,0.5,0.15,4
+section,5 — Adversarial & Out-of-Scope,Hit@3,0.5,0.4021,4
+section,5 — Adversarial & Out-of-Scope,Hit@6,0.5,0.6917,4
+section,5 — Adversarial & Out-of-Scope,MRR,0.5,0.3166,4
+section,5 — Adversarial & Out-of-Scope,recall@6,0.5,0.6,4

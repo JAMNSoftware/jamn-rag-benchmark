@@ -1,0 +1,5 @@
+metric,panel,krippendorff_alpha_ordinal,fleiss_kappa,n_units,basis
+groundedness,humans,0.6605,0.5359,117,matched: llama-3.2-3b-instruct runs 1-3
+groundedness,judges_3,0.6078,0.456,117,matched: llama-3.2-3b-instruct runs 1-3
+correctness,humans,0.643,0.4771,121,matched: llama-3.2-3b-instruct runs 1-3
+correctness,judges_3,0.7113,0.5858,121,matched: llama-3.2-3b-instruct runs 1-3
