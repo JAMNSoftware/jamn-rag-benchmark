@@ -18,7 +18,7 @@ pip install numpy
 python3 analysis/reproduce.py
 ```
 
-Expected output: `8/8 checks passed`, covering inter-rater agreement, corrected judge–human
+Expected output: `4/4 checks passed`, covering inter-rater agreement, corrected judge–human
 kappa (both serving configurations), retrieval hit-rate, and the multi-model leaderboard.
 
 ## What is here
