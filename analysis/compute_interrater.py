@@ -38,7 +38,11 @@ import sys
 
 import numpy as np
 
-EXCEL_PATH = "/Users/mark/Desktop/SmartEduPaper/RAG_Manual_Scoring.xlsx"
+# The human-scoring workbook is not distributed with this repo. Point this at
+# your own copy via the RAG_SCORING_XLSX environment variable. The published
+# per-item ratings are available portably in data/human_ratings.csv, which
+# analysis/reproduce.py uses instead.
+EXCEL_PATH = os.environ.get("RAG_SCORING_XLSX", "RAG_Manual_Scoring.xlsx")
 SHEET_NAME = "Phase4 Rerun — Run 1"
 OUTPUT_CSV = "interrater_results.csv"
 

@@ -127,8 +127,8 @@ def section_2_kappa():
     print("\n[2] Corrected judge-human kappa (temperature 0, chunk text supplied)")
     ok = True
     for cfg, path, run, eg, ec in [
-        ("Q4_K_M", "results/judged/benchmark_judge_gpt54_phase4_rerun_temp0_chunks.csv", 1, 0.400, 0.144),
-        ("Instruct", "results/judged/judged_meta-llama_llama-3.2-3b-instruct.csv", 1, 0.389, 0.463),
+        ("Q4_K_M", "results/judged/gpt-5.4/benchmark_judge_gpt54_phase4_rerun_temp0_chunks.csv", 1, 0.400, 0.144),
+        ("Instruct", "results/judged/gpt-5.4/judged_meta-llama_llama-3.2-3b-instruct.csv", 1, 0.389, 0.463),
     ]:
         h = load_human(cfg, run=1) if cfg == "Q4_K_M" else load_human(cfg, run=1)
         j = load_judge(path, run=run)
@@ -171,7 +171,7 @@ def section_3_retrieval():
 
 def section_4_leaderboard():
     print("\n[4] Multi-model leaderboard (GPT-5.4 judge, combined = (G+C)/2)")
-    d = os.path.join(ROOT, "results", "judged")
+    d = os.path.join(ROOT, "results", "judged", "gpt-5.4")
     board = {}
     for f in sorted(os.listdir(d)):
         if not (f.startswith("judged_meta") or f.startswith("judged_openai")

@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these artifacts, please cite the paper below."
 title: "JAMN Bot RAG Benchmark"
+doi: 10.5281/zenodo.21569636
 authors:
   - family-names: Farinas
     given-names: Mark
@@ -22,6 +23,8 @@ preferred-citation:
   conference:
     name: "IEEE SmartEdu 2026"
   year: 2026
-  # doi: TODO add DOI once assigned
-repository-code: "TODO add repository URL on publication"
-license: MIT
+  # doi: TODO add DOI once assigned by IEEE on publication
+repository-code: "https://github.com/JAMNSoftware/jamn-rag-benchmark"
+license:
+  - MIT
+  - CC-BY-4.0

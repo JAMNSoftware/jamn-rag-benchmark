@@ -34,9 +34,10 @@ judge/
   system_prompt.md          the rubric + 3 calibration examples given to every judge (temperature 0)
 results/
   benchmark/                per-model answers + retrieved chunk IDs + scores (7 models x 43 x 3 runs)
-  judged/                   per-model GPT-5.4 judge scores; gemini/ and qwen/ hold the two
-                            independent judges; benchmark_judge_gpt54_phase4_rerun_temp0_chunks.csv
-                            is the corrected Q4_K_M judging (temperature 0, chunk text supplied)
+  judged/                   one subfolder per judge — gpt-5.4/ (incumbent), gemini/, qwen/ —
+                            each with that judge's per-candidate scores. gpt-5.4/ also holds
+                            benchmark_judge_gpt54_phase4_rerun_temp0_chunks.csv, the corrected
+                            Q4_K_M judging (temperature 0, chunk text supplied)
   ablation/                 temperature sweep (0.0-1.0) on Llama 3.2 3B Instruct
 metrics/                    precomputed result tables (inter-rater, retrieval, jury, panel, variance)
 analysis/

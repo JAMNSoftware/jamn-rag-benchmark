@@ -43,7 +43,9 @@ csv.field_size_limit(sys.maxsize)
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(_HERE, "results")
-EXCEL = "/Users/mark/Desktop/SmartEduPaper/RAG_Manual_Scoring.xlsx"
+# Not distributed with this repo; set RAG_SCORING_XLSX to your own copy. The
+# published per-item ratings are in data/human_ratings.csv (see reproduce.py).
+EXCEL = os.environ.get("RAG_SCORING_XLSX", "RAG_Manual_Scoring.xlsx")
 CANDIDATE_CSV = "judged_meta-llama_llama-3.2-3b-instruct.csv"
 SHEETS = {1: "llama-3.23b-instruct Run 1",
           2: "llama-3.23b-instruct Run 2",
