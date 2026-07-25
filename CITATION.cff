@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use these artifacts, please cite the paper below."
 title: "JAMN Bot RAG Benchmark"
-doi: 10.5281/zenodo.21569636
+# No hardcoded DOI: Zenodo mints a version DOI on each GitHub release. A pinned
+# DOI here points at a prior version and breaks new-version archiving.
 authors:
   - family-names: Farinas
     given-names: Mark
@@ -25,6 +26,6 @@ preferred-citation:
   year: 2026
   # doi: TODO add DOI once assigned by IEEE on publication
 repository-code: "https://github.com/JAMNSoftware/jamn-rag-benchmark"
-license:
-  - MIT
-  - CC-BY-4.0
+# Zenodo accepts a single SPDX license per deposit. The analysis code is MIT;
+# the data/judge/results are CC BY 4.0 — see LICENSE-CODE, LICENSE-DATA, README.
+license: MIT
