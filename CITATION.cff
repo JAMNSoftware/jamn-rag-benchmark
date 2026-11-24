@@ -21,10 +21,33 @@ authors:
 preferred-citation:
   type: conference-paper
   title: "Unjamming Deferrals: Supporting Students Through JAMN Bot, a Mobile RAG-Grounded Policy Assistant"
+  authors:
+    - family-names: Farinas
+      given-names: Mark
+    - family-names: Garcia
+      given-names: Alesandra
+    - family-names: Reyes
+      given-names: Maria
+    - family-names: Nueva
+      given-names: Jethro
+    - family-names: Qureshi
+      given-names: Nawaf
+    - family-names: Elsaadany
+      given-names: Mahmoud
+    - family-names: Shamseldin
+      given-names: Shokry
+  collection-title: "2026 IEEE Smart World Congress (SWC)"
   conference:
     name: "IEEE SmartEdu 2026"
+  publisher:
+    name: IEEE
+  start: 810
+  end: 817
+  month: 9
   year: 2026
-  # doi: TODO add DOI once assigned by IEEE on publication
+  # The paper's DOI belongs here, under preferred-citation. The top level stays
+  # DOI-free (see the note above) so Zenodo can keep minting version DOIs.
+  doi: 10.1109/SWC69865.2026.11763986
 repository-code: "https://github.com/JAMNSoftware/jamn-rag-benchmark"
 # Zenodo accepts a single SPDX license per deposit. The analysis code is MIT;
 # the data/judge/results are CC BY 4.0 — see LICENSE-CODE, LICENSE-DATA, README.
